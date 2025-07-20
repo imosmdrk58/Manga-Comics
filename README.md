@@ -1,47 +1,56 @@
 # 📚 Manga Comics
 
-Um site de leitura e gerenciamento de Mangás e HQs. Os usuários podem se cadastrar, salvar obras favoritas, comentar, avaliar e explorar diversos conteúdos — tudo isso com foco em performance e experiência do usuário.
+Mangalar ve çizgi romanlar (HQ) için bir okuma ve yönetim sitesi.  
+Kullanıcılar **kayıt olabilir, favori eserlerini kaydedebilir, yorum yapabilir, puan verebilir ve farklı içerikleri keşfedebilir** — tüm bunlar **performans ve kullanıcı deneyimine odaklanarak** sunulur.
 
-## 🚀 Tecnologias Utilizadas
+---
 
-- **React.js** – Biblioteca principal da interface
-- **ContextAPI** – Gerenciamento global de estado
-- **React Router DOM** – Navegação entre rotas
-- **Node.js / Express**  Backend 
-- **MongoDB / Firebase** Banco de dados
-- **React Icons** – Ícones modernos e acessíveis
-- **CSS Modules / Sass** – Estilização modular e organizada
+## 🚀 Kullanılan Teknolojiler
 
-## ✅ Funcionalidades
+- **React.js** – Arayüz için ana kütüphane
+- **ContextAPI** – Global durum yönetimi
+- **React Router DOM** – Sayfalar arası gezinme
+- **Node.js / Express** – Backend
+- **MongoDB / Firebase** – Veritabanı
+- **React Icons** – Modern ve erişilebilir ikonlar
+- **CSS Modules / Sass** – Modüler ve düzenli stil yönetimi
 
-- Cadastro e login de usuários
-- Armazenamento de sessão com Redux
-- Salvar mangás e HQs como favoritos
-- Comentar em obras (como vídeos do YouTube)
-- Avaliação por estrelas ou nota
-- Menu lateral responsivo com navegação
-- Barra de busca para encontrar mangás
-- Página de perfil com histórico e dados do usuário
-- Integração futura com APIs públicas de mangás
+---
 
-## 🧪 Funcionalidades em desenvolvimento
+## ✅ Özellikler
 
-- Sistema de avaliação por estrelas
-- Sistema de comentários aninhados
-- Upload de imagem para perfil
-- Interface de leitura interativa (modo leitor)
+- Kullanıcı kaydı ve girişi
+- Redux ile oturum saklama
+- Mangaları ve çizgi romanları favorilere ekleme
+- Eserlere yorum yapma (YouTube’daki gibi)
+- Yıldız ya da puanlama sistemi
+- Duyarlı (responsive) yan menü ile gezinme
+- Manga aramak için arama çubuğu
+- Kullanıcı profili (geçmiş ve kişisel bilgiler)
+- İleride kamuya açık manga API’leri ile entegrasyon
 
-## 🔧 Instalação e execução
+---
+
+## 🧪 Geliştirilmekte Olan Özellikler
+
+- Yıldız bazlı puanlama sistemi
+- İç içe (anlık) yorum sistemi
+- Profil resmi yükleme
+- Etkileşimli okuma modu (reader mode)
+
+---
+
+## 🔧 Kurulum ve Çalıştırma
 
 ```bash
-# Clone o repositório
+# Reposu klonla
 git clone https://github.com/seu-usuario/manga-comics.git
 
-# Acesse o diretório
+# Klasöre gir
 cd manga-comics
 
-# Instale as dependências
+# Bağımlılıkları yükle
 npm install
 
-# Inicie a aplicação
+# Uygulamayı başlat
 npm start
